@@ -1,0 +1,18 @@
+cat > .gitignore <<'EOF'
+fuzz_A
+fuzz_B
+fuzz_B_fixed
+fuzz_A.cmplog
+fuzz_B.cmplog
+fuzz_B_fixed.cmplog
+runone
+*.o
+
+out_*/
+
+results.csv
+triage.csv
+
+.DS_Store
+*.swp
+EOF

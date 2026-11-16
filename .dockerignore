@@ -1,0 +1,8 @@
+# Keep fuzzer output and built binaries out of the image build context.
+out_*/
+fuzz_A
+fuzz_B
+fuzz_A.cmplog
+fuzz_B.cmplog
+runone
+*.o
